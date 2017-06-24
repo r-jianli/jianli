@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #023467;
+}
+.infinite{
+    animation: lifinite;
+}
+.swiper-container{
+    height: 100%;
+    background: url("../images/bg.jpg")repeat-y;
+    background-size: 100% 100%;
+}
+.swiper-slide .cmp{
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+}
+.swiper-slide .jiantou{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    width: 0.5rem;
+    margin-left: -0.25rem;
+    z-index: 999;
+}
+.swiper-slide{
+    position: relative;
+}
+.page1_top{
+    width: 91.9%;
+    height: 46.2%;
+    position: absolute;
+    top: 3.7%;
+    left: 4.2%;
+}
+.page1_top img:first-of-type{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.page1_top img:nth-of-type(2){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.page1_top img:nth-of-type(3){
+    position: absolute;
+    width: 3.6rem;
+    left: 18.7%;
+    top: 1.5rem;
+}
+.page1_top div{
+    font-family: 微软雅黑;
+    color: white;
+    font-size: 0.35rem;
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+}
+.page1_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.page1_bottom img:nth-of-type(1){
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.2rem;
+    z-index: 99;
+}
+.page1_bottom img:nth-of-type(2){
+    position: absolute;
+    bottom: 0rem;
+}
+.page1_bottom img:nth-of-type(3){
+    position: absolute;
+    bottom: 2.5rem;
+    right: 0.05rem;
+}
+.page2_box1{
+    position: absolute;
+    width: 91.9%;
+    height: 89.1%;
+    left: 4.4%;
+    top: 0.5rem;
+    background: url("../images/page2_pic1.png")no-repeat;
+    background-size: 100% 100%;
+}
+.page2_box1 .page2_box2{
+    position: absolute;
+    width: 90%;
+    height: 92%;
+    left: 0.35rem;
+    top: 0.4rem;
+    background: url("../images/page2_pic2.png")no-repeat;
+    background-size: 100% 100%;
+}
+.page2_box1 .page2_box2 .page2_box2_top{
+    width: 2.5rem;
+    margin: 0.5rem auto 0.3rem;
+}
+.page2_box1 .page2_box2 .page2_box2_top img{
+    width: 100%;
+}
+.nav{
+    background: #5490ca;
+    width: 4.8rem;
+    margin: 0 auto;
+    height: 0.8rem;
+}
+.nav ul:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.nav ul .red{
+    background: red;
+}
+.nav ul li{
+    float: left;
+    font-family: 微软雅黑;
+    color: white;
+    font-size: 0.25rem;
+    text-align: center;
+    width: 25%;
+    height: 90%;
+    line-height: 0.8rem;
+}
+.page2_box1 .page2_box2 .main{
+    font-family: 微软雅黑;
+    color: white;
+    font-size: 0.35rem;
+    line-height: 0.9rem;
+    padding-left: 1rem;
+}
+.page3 .main{
+    padding: 0.5rem !important;
+}
+.page3_big{
+    width: 95%;
+    border: 0.01rem solid white;
+    height: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.page3_big:first-of-type div{
+    width: 95%;
+    height: 100%;
+    background: green;
+}
+.page3_big:nth-of-type(2) div{
+    width: 80%;
+    height: 100%;
+    background: green;
+}
+.page3_big:nth-of-type(3) div{
+    width: 89%;
+    height: 100%;
+    background: green;
+}
+.page3_big:nth-of-type(4) div{
+    width: 88%;
+    height: 100%;
+    background: green;
+}
+.page4 .main{
+    padding-left: 0.5rem !important;
+}
+.page4 .main:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.page4 .main div{
+    float: left;
+    width: 45%;
+    height: 2.5rem;
+    padding-top: 0.6rem;
+    position: relative;
+    margin-right: 0.2rem;
+}
+.page4 .main div a{
+    font-size: 0.25rem;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.page4 .main img{
+    width: 100%;
+}
+.page5 .main{
+    padding: 0 0.3rem !important;
+    font-size: 0.35rem !important;
+    line-height: 0.5rem !important;
+}
+.page5 .main img{
+    width:50%;
+    display: block;
+    margin: 0.2rem auto;
+}
+.page6 .page1_top div{
+    font-size: 1rem;
+    text-align: center;
+    top: 1rem;
+}
+.page6 .page1_top img:nth-of-type(3){
+    position: absolute;
+    top: 2.5rem;
+    left: 2.1rem;
+    width: 2.5rem;
+}
+.page6 .page1_top p:first-of-type{
+    color: white;
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+    font-size: 0.5rem;
+}
+.page6 .page1_top p:nth-of-type(2){
+    position: absolute;
+    color: white;
+    font-size: 0.4rem;
+    top: 5rem;
+    left: 2.3rem;
+}
+
+
+
+
+
+
+
