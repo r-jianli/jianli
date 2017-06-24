@@ -112,6 +112,7 @@ html,body{
 }
 .page2_box1 .page2_box2 .page2_box2_top img{
     width: 100%;
+    border-radius: 50%;
 }
 .nav{
     background: #5490ca;
